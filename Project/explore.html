@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CATEGORIES</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: radial-gradient(white,lightblue);
+        }
+        nav{
+            text-align: center;
+            flex: 1;
+        }
+        nav ul{
+            display: inline-block;
+            list-style-type: none;
+        }
+        nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+        }
+        img{
+            width: 100px;
+        }
+        .men{
+            padding-right: 50px;
+        }
+        .women{
+            padding-right: 50px;
+        }
+        .kids{
+            width: 100px;
+        }
+        .title{
+        text-align: center;
+        margin: 0 auto 80px;
+        position: relative;
+        color: black;
+        line-height: 60px;
+        font-size: 50px;
+        }
+        .title::after{
+        content: '';
+        background: lightblue;
+        width: 50px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        left: 50%;
+        }
+        .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        }
+        .col4 img{
+        width: 100%;
+        height: 100%;
+        }
+        .col4{
+        flex-basis: 25%;
+        padding: 10px;
+        min-width: 100px;
+        margin-bottom: 50px;
+        transition: transform 0.5s;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="men"><img src="men.jpg" alt=""><h2>MEN</h2></li>
+            <li class="women"><img src="women.jpg" alt=""><h2>WOMEN</h2></li>
+            <li class="kids"><img src="kids.jpg" alt=""><h2>KIDS</h2></li>
+        </ul>
+    </nav>
+    <div class="col2">
+        <h1 class="big title"><marquee>CATEGORIES</marquee></h1>
+    </div>
+    <div>
+        <h1 class="title">MEN &#9794;</h1>
+        <div class="row">
+            <div class="col4">
+                </a><img src="red hoodie.jpg" height="200px" width="200px">
+                <a href="https://gap.ajio.com/gap-kids-girls-logo-applique-relaxed-fit-zip-front-hoodie/p/442252835_red"><h3>Red GAP Hoodie</h3>
+                <p>$50.00</p>
+            </div>
+            <div class="col4">
+            </a><img src="jeans2.jpg" height="200px" width="200px">
+            <a href="https://www.wrangler.in/men/jeans/skinny-blue-8905409564707"><h3>Skinny Blue Jeans</h3>
+            <p>$60.00</p>
+        </div>
+        <div class="col4">
+            </a><img src="sneakers.jpg" height="200px" width="200px">
+            <a href="https://www.amazon.in/BADLAV-Sneakers-Stylish-Comfortable-Shoes/dp/B0CPFBWG4X"><h3>Sneakers</h3>
+            <p>$30.00</p>
+        </div>
+        </div>
+        <h1 class="title">Women &female;</h1>
+        <div class="row">
+            <div class="col4">
+                </a><img src="women1.jpg" height="200px" width="200px">
+                <a href="https://www.myntra.com/ethnic-dresses/stylum/stylum-gown-women-sleeveless-solid-party-wear-satin-gown-dresses/30866382/buy"><h3>Party wear Dresses</h3>
+                <p>$50.00</p>
+            </div>
+            <div class="col4">
+            </a><img src="women2.jpg" height="200px" width="200px">
+            <a href="https://www.myntra.com/dresses"><h3>Frocks for Women</h3>
+            <p>$60.00</p>
+        </div>
+        <div class="col4">
+            </a><img src="sneakers3.jpg" height="200px" width="200px">
+            <a href="https://www.myntra.com/casual-shoes/roadster/roadster-women-white--pink-lightweight-comfort-insole-basics-sneakers/23808106/buy"><h3>Sneakers for Women</h3>
+            <p>$30.00</p>
+        </div>
+        <div>
+        <h1 class="title">Kids</h1>
+        <div class="row">
+            <div class="col4">
+                </a><img src="kids1.jpg" height="200px" width="200px">
+                <a href="https://www.myntra.com/girls-dresses"><h3>Frocks for Kids</h3>
+                <p>$50.00</p>
+            </div>
+            <div class="col4">
+            </a><img src="kids2.jpg" height="200px" width="200px">
+            <a href="https://www.amazon.in/CLOTH-ADDA-Western-Dresses-Clothing/dp/B0CM9RR8MR"><h3>Western dress for kids</h3>
+            <p>$20.00</p>
+        </div>
+        <div class="col4">
+            </a><img src="shoes3.jpg" height="200px" width="200px">
+            <a href="https://www.amazon.in/Generic-BARBIE-PISTA-Girls-Shoes/dp/B0CTR97V1P"><h3>Shoes for kids</h3>
+            <p>$30.00</p>
+        </div>
+        <div class="col4">
+        </a><img src="bkids2.jpg" height="200px" width="200px">
+        <a href="https://www.flipkart.com/rubi-kids-wear-boys-party-festive-jacket-pant/p/itm467dce88e4ed2?pid=KPBGFGVXAZ39UHPY"><h3>Party wear for kids</h3>
+        <p>$50.00</p>
+        </div>
+        <div class="col4">
+        </a><img src="bkids.jpg" height="200px" width="200px">
+        <a href="https://www.amazon.in/Bebe-Unicorn-Boys-Pure-Cotton/dp/B0D7D7ZJQV"><h3>shorts for kids</h3>
+        <p>$60.00</p>
+        </div>
+        <div class="col4">
+        </a><img src="watch3.jpg" height="200px" width="200px">
+        <a href="https://www.amazon.in/Squirro-Spiderman-Digital-Watches-Children/dp/B0966YPSGY"><h3>Watches for Kids</h3>
+        <p>$30.00</p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
